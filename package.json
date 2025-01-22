@@ -1,0 +1,28 @@
+{
+  "name": "order-service-be",
+  "version": "1.0.0",
+  "description": "This service is responsible for handling  order related api queries",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon Src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "google-auth-library": "^9.15.0",
+    "ipinfo": "^1.5.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.30.1",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "rate-limiter-flexible": "^5.0.5",
+    "uuid": "^11.0.5"
+  }
+}
