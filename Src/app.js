@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 const PORT = process.env.PORT || 3000;
 const cors = require("cors");
 const morgan = require("morgan");
-require("./Src/DB/conn");
+require("./DB/conn");
 
 
 app.use(morgan("dev"));
@@ -15,8 +15,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Routes
-app.use('/api', require("./Src/routes/authenticate_routes"));
-app.use('/api', require('./Src/routes/url_routes'));
+app.use('/api', require("./routes/authenticate_routes"));
+app.use('/api', require('./routes/url_routes'));
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
