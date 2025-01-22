@@ -24,7 +24,7 @@ Step 3: Build and Start Docker Containers
                   . url-shortner-container (your app)
                   . mongodb (MongoDB database)
 
-Step 6: Test the Application
+Step 4: Test the Application
        1. Open your browser or API testing tool (e.g., Postman).
        2. Use the base URL http://localhost:5001/api to test the endpoints.
 
